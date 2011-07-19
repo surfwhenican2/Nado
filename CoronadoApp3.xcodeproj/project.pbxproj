@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94C30DF413D642F20068A722 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C30DF313D642F20068A722 /* UIKit.framework */; };
+		94C30DF613D642F20068A722 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C30DF513D642F20068A722 /* Foundation.framework */; };
+		94C30DF813D642F20068A722 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C30DF713D642F20068A722 /* CoreGraphics.framework */; };
+		94C30DFE13D642F20068A722 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94C30DFC13D642F20068A722 /* InfoPlist.strings */; };
+		94C30E0113D642F20068A722 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C30E0013D642F20068A722 /* main.m */; };
+		94C30E0413D642F20068A722 /* CoronadoApp3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C30E0313D642F20068A722 /* CoronadoApp3AppDelegate.m */; };
+		94C30E0713D642F20068A722 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94C30E0513D642F20068A722 /* MainWindow.xib */; };
+		94C30E0A13D642F20068A722 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C30E0913D642F20068A722 /* FirstViewController.m */; };
+		94C30E0D13D642F20068A722 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C30E0C13D642F20068A722 /* SecondViewController.m */; };
+		94C30E1013D642F30068A722 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94C30E0E13D642F30068A722 /* FirstView.xib */; };
+		94C30E1313D642F30068A722 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94C30E1113D642F30068A722 /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94C30DEF13D642F20068A722 /* CoronadoApp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoronadoApp3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C30DF313D642F20068A722 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94C30DF513D642F20068A722 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94C30DF713D642F20068A722 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94C30DFB13D642F20068A722 /* CoronadoApp3-Info.plist */ = {isa = PBXFileReference; path = "CoronadoApp3-Info.plist"; sourceTree = "<group>"; };
+		94C30DFD13D642F20068A722 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94C30DFF13D642F20068A722 /* CoronadoApp3-Prefix.pch */ = {isa = PBXFileReference; path = "CoronadoApp3-Prefix.pch"; sourceTree = "<group>"; };
+		94C30E0013D642F20068A722 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94C30E0213D642F20068A722 /* CoronadoApp3AppDelegate.h */ = {isa = PBXFileReference; path = CoronadoApp3AppDelegate.h; sourceTree = "<group>"; };
+		94C30E0313D642F20068A722 /* CoronadoApp3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoronadoApp3AppDelegate.m; sourceTree = "<group>"; };
+		94C30E0613D642F20068A722 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		94C30E0813D642F20068A722 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		94C30E0913D642F20068A722 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		94C30E0B13D642F20068A722 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		94C30E0C13D642F20068A722 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		94C30E0F13D642F30068A722 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		94C30E1213D642F30068A722 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94C30DEC13D642F20068A722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C30DF413D642F20068A722 /* UIKit.framework in Frameworks */,
+				94C30DF613D642F20068A722 /* Foundation.framework in Frameworks */,
+				94C30DF813D642F20068A722 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94C30DE413D642F20068A722 = {
+			isa = PBXGroup;
+			children = (
+				94C30DF913D642F20068A722 /* CoronadoApp3 */,
+				94C30DF213D642F20068A722 /* Frameworks */,
+				94C30DF013D642F20068A722 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94C30DF013D642F20068A722 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94C30DEF13D642F20068A722 /* CoronadoApp3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94C30DF213D642F20068A722 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94C30DF313D642F20068A722 /* UIKit.framework */,
+				94C30DF513D642F20068A722 /* Foundation.framework */,
+				94C30DF713D642F20068A722 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94C30DF913D642F20068A722 /* CoronadoApp3 */ = {
+			isa = PBXGroup;
+			children = (
+				94C30E0213D642F20068A722 /* CoronadoApp3AppDelegate.h */,
+				94C30E0313D642F20068A722 /* CoronadoApp3AppDelegate.m */,
+				94C30E0513D642F20068A722 /* MainWindow.xib */,
+				94C30E0813D642F20068A722 /* FirstViewController.h */,
+				94C30E0913D642F20068A722 /* FirstViewController.m */,
+				94C30E0B13D642F20068A722 /* SecondViewController.h */,
+				94C30E0C13D642F20068A722 /* SecondViewController.m */,
+				94C30E0E13D642F30068A722 /* FirstView.xib */,
+				94C30E1113D642F30068A722 /* SecondView.xib */,
+				94C30DFA13D642F20068A722 /* Supporting Files */,
+			);
+			path = CoronadoApp3;
+			sourceTree = "<group>";
+		};
+		94C30DFA13D642F20068A722 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94C30DFB13D642F20068A722 /* CoronadoApp3-Info.plist */,
+				94C30DFC13D642F20068A722 /* InfoPlist.strings */,
+				94C30DFF13D642F20068A722 /* CoronadoApp3-Prefix.pch */,
+				94C30E0013D642F20068A722 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94C30DEE13D642F20068A722 /* CoronadoApp3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C30E1613D642F30068A722 /* Build configuration list for PBXNativeTarget "CoronadoApp3" */;
+			buildPhases = (
+				94C30DEB13D642F20068A722 /* Sources */,
+				94C30DEC13D642F20068A722 /* Frameworks */,
+				94C30DED13D642F20068A722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoronadoApp3;
+			productName = CoronadoApp3;
+			productReference = 94C30DEF13D642F20068A722 /* CoronadoApp3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94C30DE613D642F20068A722 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 94C30DE913D642F20068A722 /* Build configuration list for PBXProject "CoronadoApp3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94C30DE413D642F20068A722;
+			productRefGroup = 94C30DF013D642F20068A722 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94C30DEE13D642F20068A722 /* CoronadoApp3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94C30DED13D642F20068A722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C30DFE13D642F20068A722 /* InfoPlist.strings in Resources */,
+				94C30E0713D642F20068A722 /* MainWindow.xib in Resources */,
+				94C30E1013D642F30068A722 /* FirstView.xib in Resources */,
+				94C30E1313D642F30068A722 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94C30DEB13D642F20068A722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C30E0113D642F20068A722 /* main.m in Sources */,
+				94C30E0413D642F20068A722 /* CoronadoApp3AppDelegate.m in Sources */,
+				94C30E0A13D642F20068A722 /* FirstViewController.m in Sources */,
+				94C30E0D13D642F20068A722 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94C30DFC13D642F20068A722 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C30DFD13D642F20068A722 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94C30E0513D642F20068A722 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C30E0613D642F20068A722 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		94C30E0E13D642F30068A722 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C30E0F13D642F30068A722 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		94C30E1113D642F30068A722 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C30E1213D642F30068A722 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94C30E1413D642F30068A722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		94C30E1513D642F30068A722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		94C30E1713D642F30068A722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoronadoApp3/CoronadoApp3-Prefix.pch";
+				INFOPLIST_FILE = "CoronadoApp3/CoronadoApp3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94C30E1813D642F30068A722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoronadoApp3/CoronadoApp3-Prefix.pch";
+				INFOPLIST_FILE = "CoronadoApp3/CoronadoApp3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94C30DE913D642F20068A722 /* Build configuration list for PBXProject "CoronadoApp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C30E1413D642F30068A722 /* Debug */,
+				94C30E1513D642F30068A722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C30E1613D642F30068A722 /* Build configuration list for PBXNativeTarget "CoronadoApp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C30E1713D642F30068A722 /* Debug */,
+				94C30E1813D642F30068A722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94C30DE613D642F20068A722 /* Project object */;
+}
