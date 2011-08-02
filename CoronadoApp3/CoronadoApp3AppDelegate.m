@@ -7,9 +7,9 @@
 //
 
 #import "CoronadoApp3AppDelegate.h"
+#import "MyViewController.h"
 
 @implementation CoronadoApp3AppDelegate
-
 
 @synthesize window=_window;
 
@@ -20,9 +20,20 @@
     // Override point for customization after application launch.
     // Add the tab bar controller's current view as a subview of the window
     self.window.rootViewController = self.tabBarController;
+
     [self.window makeKeyAndVisible];
     return YES;
 }
+
+- (void)applicationDidFinishLaunching:(UIApplication *)application {    
+    
+       
+    
+    // Override point for customization after app launch    
+    [_window addSubview:_tabBarController.view];
+    [window makeKeyAndVisible];
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

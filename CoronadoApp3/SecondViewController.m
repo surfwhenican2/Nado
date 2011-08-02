@@ -10,14 +10,19 @@
 
 
 @implementation SecondViewController
+@synthesize webView;
 
-/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
+ NSURL *url = [NSURL URLWithString:@"http://www.coronadoapp.com"];
+ NSURLRequest *requestURL = [NSURLRequest requestWithURL
+ :url];
+ [webView loadRequest:requestURL];
+    
     [super viewDidLoad];
 }
-*/
+
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
@@ -46,6 +51,7 @@
 
 - (void)dealloc
 {
+    [webView dealloc];
     [super dealloc];
 }
 
